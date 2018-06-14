@@ -1,0 +1,101 @@
+
+Disk /dev/mtdblock0: 0 MB, 65536 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock0 doesn't contain a valid partition table
+
+Disk /dev/mtdblock1: 0 MB, 65536 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock1 doesn't contain a valid partition table
+
+Disk /dev/mtdblock2: 0 MB, 131072 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock2 doesn't contain a valid partition table
+
+Disk /dev/mtdblock3: 0 MB, 131072 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock3 doesn't contain a valid partition table
+
+Disk /dev/mtdblock4: 0 MB, 65536 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock4 doesn't contain a valid partition table
+
+Disk /dev/mtdblock5: 0 MB, 393216 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock5 doesn't contain a valid partition table
+
+Disk /dev/mtdblock6: 0 MB, 65536 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock6 doesn't contain a valid partition table
+
+Disk /dev/mtdblock7: 7 MB, 7340032 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock7 doesn't contain a valid partition table
+
+Disk /dev/mtdblock8: 0 MB, 131072 bytes
+255 heads, 63 sectors/track, 0 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Disk /dev/mtdblock8 doesn't contain a valid partition table
+Note: sector size is 4096 (not 512)
+
+Disk /dev/ffx00: 22 MB, 22908928 bytes
+2 heads, 16 sectors/track, 174 cylinders
+Units = cylinders of 32 * 4096 = 131072 bytes
+
+Disk /dev/ffx00 doesn't contain a valid partition table
+Note: sector size is 4096 (not 512)
+
+Disk /dev/ffx01: 953 MB, 953401344 bytes
+6 heads, 48 sectors/track, 808 cylinders
+Units = cylinders of 288 * 4096 = 1179648 bytes
+
+      Device Boot      Start         End      Blocks  Id System
+/dev/ffx01p1               1         425      489408  83 Linux
+/dev/ffx01p2             426         480       63360  83 Linux
+/dev/ffx01p3             481         535       63360  83 Linux
+/dev/ffx01p4             536         808      314496  83 Linux
+
+Disk /dev/mmcblk0: 3934 MB, 3934257152 bytes
+4 heads, 16 sectors/track, 120064 cylinders
+Units = cylinders of 64 * 512 = 32768 bytes
+
+        Device Boot      Start         End      Blocks  Id System
+/dev/mmcblk0p1           18313      120064     3256064  83 Linux
+/dev/mmcblk0p2               1       18312      585976  83 Linux
+
+Partition table entries are not in disk order
+
+Disk /dev/mmcblk0boot1: 1 MB, 1048576 bytes
+4 heads, 16 sectors/track, 32 cylinders
+Units = cylinders of 64 * 512 = 32768 bytes
+
+Disk /dev/mmcblk0boot1 doesn't contain a valid partition table
+
+Disk /dev/mmcblk0boot0: 1 MB, 1048576 bytes
+4 heads, 16 sectors/track, 32 cylinders
+Units = cylinders of 64 * 512 = 32768 bytes
+
+Disk /dev/mmcblk0boot0 doesn't contain a valid partition table
+
+Disk /dev/sda: 1993 MB, 1993342976 bytes
+88 heads, 37 sectors/track, 1195 cylinders
+Units = cylinders of 3256 * 512 = 1667072 bytes
+
+   Device Boot      Start         End      Blocks  Id System
+/dev/sda1               1        1196     1945600   b Win95 FAT32

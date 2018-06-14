@@ -1,0 +1,11 @@
+Filesystem                Size      Used Available Use% Mounted on
+rootfs                  477.9M    384.4M     93.5M  80% /
+none                      8.0M      1.1M      6.9M  14% /dev
+/dev/ffx01p1            477.9M    384.4M     93.5M  80% /
+none                      8.0M      1.1M      6.9M  14% /dev
+none                    128.0M      5.1M    122.9M   4% /tmp
+/dev/ffx01p4            307.1M      7.9M    299.2M   3% /tmp/mnt/data
+/dev/mmcblk0p2          572.2M      5.7M    566.6M   1% /tmp/mnt/data_persist
+/dev/mtdblock5          128.0K    128.0K         0 100% /config-mfg
+/dev/mmcblk0p1            3.1G    772.8M      2.3G  24% /tmp/mnt/resources
+/dev/sda1                 1.9G     10.1M      1.8G   1% /tmp/mnt/sda1

@@ -1,0 +1,19 @@
+Usage:
+	jci-dialog [<options>]
+
+Options:
+	--info			information dialog
+	--warning		warning dialog
+	--error			error dialog
+	--question		question dialog
+	--confirm		confirmation dialog
+	--3-button-dialog	3 button dialog
+
+	--title=STRING		set dialog title to STRING
+	--text=STRING		set dialog text to STRING
+	--ok-label=STRING	set the OK button label to STRING
+	--cancel-label=STRING	set the cancel button label to STRING
+	--button3-label=STRING	set the 3rd button label to STRING (in case of 3-button-dialog style)
+	--no-cancel		disable the cancel button
+
+	--help			show this help screen

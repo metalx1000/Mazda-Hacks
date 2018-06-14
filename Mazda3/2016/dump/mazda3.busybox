@@ -1,0 +1,47 @@
+BusyBox v1.19.2 (2015-06-10 16:20:16 IST) multi-call binary.
+Copyright (C) 1998-2011 Erik Andersen, Rob Landley, Denys Vlasenko
+and others. Licensed under GPLv2.
+See source distribution for full notice.
+
+Usage: busybox [function] [arguments]...
+   or: busybox --list[-full]
+   or: function [arguments]...
+
+	BusyBox is a multi-call binary that combines many common Unix
+	utilities into a single executable.  Most people will create a
+	link to busybox for each function they wish to use and BusyBox
+	will act like whatever it was invoked as.
+
+Currently defined functions:
+	[, [[, add-shell, addgroup, adduser, adjtimex, arp, arping, ash, awk,
+	base64, basename, blkid, blockdev, brctl, bunzip2, bzcat, bzip2, cal,
+	cat, catv, chattr, chgrp, chmod, chown, chpasswd, chroot, chrt, chvt,
+	cksum, clear, cmp, comm, cp, cpio, cryptpw, cttyhack, cut, date, dd,
+	deallocvt, delgroup, deluser, depmod, devmem, df, dhcprelay, diff,
+	dirname, dmesg, dnsdomainname, dos2unix, du, dumpkmap, dumpleases,
+	echo, ed, egrep, eject, env, expand, expr, false, fbset, fbsplash,
+	fdflush, fdformat, fdisk, fgconsole, fgrep, find, findfs, flock, fold,
+	free, fsck, fsync, fuser, getopt, getty, grep, groups, gunzip, gzip,
+	halt, hd, hdparm, head, hexdump, hostid, hostname, httpd, hwclock, id,
+	ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, insmod, install,
+	ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs, iplink, iproute,
+	iprule, iptunnel, kbd_mode, kill, killall, killall5, klogd, last, less,
+	linux32, linux64, ln, loadkmap, logger, login, logname, logread,
+	losetup, ls, lsattr, lsmod, lspci, lsusb, lzop, lzopcat, makedevs,
+	md5sum, mdev, mkdir, mke2fs, mkfifo, mkfs.ext2, mknod, mkpasswd,
+	mkswap, mktemp, modinfo, modprobe, more, mount, mountpoint, mpstat, mv,
+	nameif, nbd-client, nc, netstat, nice, nmeter, nohup, nslookup, ntpd,
+	od, openvt, passwd, patch, pgrep, pidof, ping, pipe_progress, pkill,
+	pmap, poweroff, powertop, printenv, printf, ps, pscan, pstree, pwd,
+	pwdx, rdate, rdev, readlink, readprofile, realpath, reboot,
+	remove-shell, renice, reset, resize, rev, rm, rmdir, rmmod, route, rpm,
+	rpm2cpio, rtcwake, run-parts, rx, script, scriptreplay, sed, seq,
+	setarch, setconsole, setfont, setkeycodes, setlogcons, setsid, sh,
+	showkey, slattach, sleep, smemcap, sort, split, stat, strings, stty,
+	su, sulogin, sum, swapoff, swapon, sync, sysctl, syslogd, tac, tail,
+	tar, taskset, tcpsvd, tee, test, time, timeout, top, touch, tr,
+	traceroute, true, tty, ttysize, tunctl, tune2fs, udhcpc, udhcpd,
+	umount, uname, unexpand, uniq, unix2dos, unlzop, uptime, users, usleep,
+	vconfig, vi, vlock, volname, watch, watchdog, wc, wget, which, who,
+	whoami, xargs, yes, zcat, zcip
+
